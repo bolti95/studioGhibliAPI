@@ -1,0 +1,45 @@
+
+  
+  html {
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.6;
+    color: rgb(154, 57, 186);
+    background: #F6F6F6;
+    background-image: url('./173331441000202.gif');
+    background-repeat: no-repeat; 
+    background-position-x: center;
+    /* background-position-y: 400%; */
+  
+  }
+  .textContainer {
+    position: fixed;
+    text-align: center;
+    align-items: center;
+    padding-top: 12%;
+    height: 100%;
+    width: 100%;
+  }
+
+  .inputContainer {
+    text-align: center;
+
+  }
+
+  .textDescription {
+    width: 50%;
+    text-align: center;
+    padding-left: 25%;
+  }
+
+  
+  @media screen and (min-width: 900px) {
+    .card {
+      flex: 1 1 calc(33% - 2rem);
+    }
+  }
+  
+
+  
